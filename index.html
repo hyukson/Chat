@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>채팅</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/app.js"></script>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="phone">
+        <div class="title">
+          <h4>공개채팅</h4>
+          <div class="userCnt">
+            현재<span>0</span>명이 서버에 접속해있습니다.
+          </div>
+        </div>
+
+        <div class="chat"></div>
+
+        <form class="bottom">
+          <div>
+            <input
+              type="text"
+              id="message"
+              autofocus
+              placeholder="메시지를 입력해주세요."
+            />
+            <button>전송</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
