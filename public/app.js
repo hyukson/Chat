@@ -3,7 +3,7 @@
   const socket = io.connect("/");
 
   const limitString = (str, limit = 300) => {
-    return str.length > limit ? str.substring(0, limit) : str;
+    return str?.substring(0, limit);
   };
 
   // 서버에서 소켓에 접속을 완료했을 때 신호를 보냄
