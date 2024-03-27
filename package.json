@@ -1,8 +1,8 @@
 {
   "homepage": "https://hyukson.github.io/Chat",
-  "main": "./index.js",
+  "main": "./socket.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.17.3",
