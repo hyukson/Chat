@@ -1,5 +1,5 @@
 {
-  "homepage": "https://hyukson.github.io/Chat",
+  "homepage": "https:/https://chat-hyukson.koyeb.app/",
   "main": "./socket.js",
   "scripts": {
     "start": "node index.js"
