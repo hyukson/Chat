@@ -1,8 +1,8 @@
 {
   "homepage": "https://hyukson.github.io/Chat",
-  "main": "socket.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node socket.js",
+    "start": "node index.js",
     "build": "npm run build",
     "deploy": "npm run build && gh-pages -d build"
   },
