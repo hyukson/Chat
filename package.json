@@ -1,8 +1,9 @@
 {
-  "homepage": "https:/https://chat-hyukson.koyeb.app/",
+  "homepage": "https://chat-hyukson.koyeb.app/",
   "main": "./socket.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node socket.js"
   },
   "dependencies": {
     "express": "^4.17.3",
